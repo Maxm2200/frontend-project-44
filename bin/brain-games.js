@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import { welcomeUser } from '../src/cli.js';
-welcomeUser();
+import { welcome } from '../src/cli.js';
+welcome();
