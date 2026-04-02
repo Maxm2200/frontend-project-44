@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 import { welcome } from "../src/cli";
-welcome();
+import evenGame from '../src/games/evenGame.js'
+evenGame()
 const startEven = () => {
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
   const rounds = 3;
