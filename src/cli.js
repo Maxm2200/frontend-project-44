@@ -5,3 +5,4 @@ export const welcome = () => {
   console.log(name);
   console.log(`Hello, ${name}!`);
 };
+export default welcome;
