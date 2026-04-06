@@ -6,7 +6,7 @@ const startGames = (description, game) => {
   console.log(description);
   for (let i = 0; i < 3; i += 1) {
     const [question, correct] = game();
-    console.log(`Question: ${question}`);
+    console.log(`Question:${question}`);
     const user = readlineSync.question('Your answer: ');
     if (user === String(correct)) {
       console.log('Correct!');
