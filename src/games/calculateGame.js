@@ -7,7 +7,7 @@ const calculate = (num1, num2, znac) => {
     case '*': return num1 * num2
     default: return null
   }
-};
+}
 const game = () => {
   const znacs = ['+', '-', '*']
   const num1 = Math.floor(Math.random() * 20) + 1

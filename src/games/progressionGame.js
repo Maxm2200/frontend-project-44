@@ -7,7 +7,7 @@ const game = () => {
   const getLengthProgression = getRandomNumber(5, 15)
   const getIncrementProgression = getRandomNumber(2, 8)
   const getIndexHiddenElement = getRandomNumber(0, getLengthProgression - 1)
-  const getStartElementProgression =  getRandomNumber(2, 30)
+  const getStartElementProgression = getRandomNumber(2, 30)
   const progression = []
   for (var i = 0; i < getLengthProgression; i += 1) {
     progression.push(getStartElementProgression + i * getIncrementProgression)
